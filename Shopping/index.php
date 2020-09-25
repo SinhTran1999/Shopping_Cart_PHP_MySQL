@@ -2,6 +2,10 @@
     // header.php
     include("header.php");
     require_once('./php/component.php');
+    require_once('./php/CreateDatabase.php');
+
+    // create instance of CreateDB class in file CreateDatabase.php
+    $database = new CreateDB("");
 ?>
     <div class="container">
         <div class="row text-center py-5">
